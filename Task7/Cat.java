@@ -1,2 +1,27 @@
-package Task7;public class Cat {
+package Task7;
+
+public class Cat {
+    String name;
+    int age;
+
+    Cat (String name, int age) {
+        this.name = name;
+        this.age = age;
+    }
+
+    public String getName() {
+        return name;
+    }
+
+    public int getAge() {
+        return age;
+    }
+
+    public void setName(String name) {
+        this.name = name;
+    }
+
+    public void setAge(int age) {
+        this.age = age;
+    }
 }
